@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dozenc.lib.qrcodescanner">
+
+    <uses-feature android:name="android.hardware.camera.any" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+
+        <activity android:name=".QRCodeScannerActivity">
+        </activity>
+
+    </application>
+</manifest>

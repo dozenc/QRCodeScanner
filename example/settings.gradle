@@ -1,0 +1,5 @@
+include ':app'
+rootProject.name = "Example"
+
+include ':QRCodeScanner'
+project(':QRCodeScanner').projectDir = new File('../')

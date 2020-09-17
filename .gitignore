@@ -1,0 +1,9 @@
+/build
+/local.properties
+/comsumer-rules.pro
+.gradle
+.idea/
+gradle/
+gradlew
+gradlew.bat
+comsumer-rules.pro
